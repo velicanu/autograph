@@ -1,3 +1,6 @@
+# core
 streamlit
+plotly
+# dev
 ruff
 pytest

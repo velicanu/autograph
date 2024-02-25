@@ -50,6 +50,7 @@ numpy==1.26.4
 packaging==23.2
     # via
     #   altair
+    #   plotly
     #   pytest
     #   streamlit
 pandas==2.2.1
@@ -58,6 +59,7 @@ pandas==2.2.1
     #   streamlit
 pillow==10.2.0
     # via streamlit
+plotly==5.19.0
 pluggy==1.4.0
     # via pytest
 protobuf==4.25.3
@@ -94,7 +96,9 @@ smmap==5.0.1
     # via gitdb
 streamlit==1.31.1
 tenacity==8.2.3
-    # via streamlit
+    # via
+    #   plotly
+    #   streamlit
 toml==0.10.2
     # via streamlit
 toolz==0.12.1
